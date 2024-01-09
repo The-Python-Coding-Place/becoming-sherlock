@@ -17,7 +17,7 @@ temperatures = pickle.load(open("temperatures_list", 'rb'))
 
 def find_n_days_below(input_temp, input_data):
     '''
-    Finds the number number of days below (or equal to) input_temp from 
+    Finds the number of days below (or equal to) input_temp from
     the temperatures in input_data. Returns both number of days
     and percentage
     

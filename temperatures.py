@@ -1,11 +1,14 @@
-# We have a list with all the daily mean temperatures since 1772, in ºC
-# We need to write a few functions to look at some of the stats from these
-# data
-#
-# Note: the data are being loaded from an external Python data file using the
-# pickle package. This is one way of storing data on disk to use across
-# different Python scripts/programs or for the same script/program
-# to save the output for the next time it runs
+"""
+Introduction to the problem:
+We have a list with all the daily mean temperatures since 1772, in ºC
+We need to write a few functions to look at some of the stats from these
+data
+
+Note: the data are being loaded from an external Python data file using the
+pickle package. This is one way of storing data on disk to use across
+different Python scripts/programs or for the same script/program
+to save the output for the next time it runs
+"""
 
 import pickle
 

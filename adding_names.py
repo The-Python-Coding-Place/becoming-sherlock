@@ -1,7 +1,10 @@
-# We have a program that prints a menu in which we can choose to do a number of things
-# with a list of names: Either add a name to the list, or make a name uppercase,
-# or replace a letter in a name.
-# It doesn't quite work, yet
+"""
+Introduction:
+We have a program that prints a menu in which we can choose to do a number of things
+with a list of names: Either add a name to the list, or make a name uppercase,
+or replace a letter in a name.
+It doesn't quite work, yet
+"""
 
 names = ["James", "Kate", "Matthew", "Paul", "Jessica", "Claire"]
 
